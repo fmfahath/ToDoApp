@@ -104,3 +104,25 @@ main{
     color: var(--gray);
     margin-bottom: 1rem;
 }
+
+#task .task{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkest);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#task .task .content .text{
+    color: var(--light);
+    font-size: 1.125rem;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+
+}
+
+#task .task .content .text:not(:read-only){
+    color: var(--pink);
+}
