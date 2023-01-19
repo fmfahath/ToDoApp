@@ -1,0 +1,4 @@
+# not responsive
+
+# longer text are hiding inside the input field
+
