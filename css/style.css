@@ -108,7 +108,7 @@ main{
     margin-bottom: 1rem;
 }
 
-#task .task{
+#tasks .task{
     display: flex;
     justify-content: space-between;
     background-color: var(--darkest);
@@ -117,7 +117,7 @@ main{
     margin-bottom: 1rem;
 }
 
-#task .task .content .text{
+#tasks .task .content .text{
     color: var(--light);
     font-size: 1.125rem;
     width: 100%;
@@ -126,11 +126,11 @@ main{
 
 }
 
-#task .task .content .text:not(:read-only){
+#tasks .task .content .text:not(:read-only){
     color: var(--pink);
 }
 
-#task .task .actions{
+#tasks .task .actions{
  display: flex;
  margin: 0 -0.5rem;
 }
