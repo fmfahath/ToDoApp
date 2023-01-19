@@ -1,5 +1,5 @@
 
-//getting values for the elementss
+//getting values from the elementss
 window.addEventListener('load', ()=>{
     const form = document.querySelector('#new-task-form');
     const input = document.querySelector('#new-task-input');
@@ -11,6 +11,7 @@ window.addEventListener('load', ()=>{
 
         const task = input.value;
 
+        //check input field is empty or not
         if(!task){
             alert("Please fill out the task");
             return;
@@ -52,7 +53,17 @@ window.addEventListener('load', ()=>{
         list_el.appendChild(task_el); 
 
         input.value = "";
-    });
 
-   
+        //add funtions to Edit button
+        task_edit_el.addEventListener('click', ()=>{
+           if(task_edit_el.innerText.toLowerCase() == "edit"){
+                task_input_el.removeAttribute('readonly');
+                task_input_el.focus();
+                task_edit_el.innerText = "Save";
+           }else{
+                task_input_el.setAttribute('readonly','readonly');
+                task_edit_el.innerText = "Edit";
+           }
+        })
+    })
 })
