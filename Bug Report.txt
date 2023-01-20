@@ -1,5 +1,5 @@
 # not responsive - fixed
 
-# longer text are hiding inside the input field
+# longer text are hiding inside the input field - fixed
 
 # remove dummy task from HTML page
