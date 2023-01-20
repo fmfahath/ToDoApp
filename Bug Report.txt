@@ -2,4 +2,4 @@
 
 # longer text are hiding inside the input field - fixed
 
-# remove dummy task from HTML page
+# remove dummy task from HTML page - fixed
