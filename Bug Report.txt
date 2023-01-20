@@ -1,4 +1,4 @@
-# not responsive
+# not responsive - fixed
 
 # longer text are hiding inside the input field
 

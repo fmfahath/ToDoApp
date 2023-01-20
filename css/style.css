@@ -135,7 +135,6 @@ main{
     width: 100%;
     display: block;
     transition: 0.4s;
-
 }
 
 #tasks .task .content .text:not(:read-only){
@@ -172,4 +171,42 @@ main{
 
 .task .actions .delete{
      color: crimson; 
+}
+
+
+/* responsive */
+@media only screen and (max-width:600px){
+    /* task List 2022 header */
+    header h1{
+        font-size: 1.5rem;
+    }
+
+    /* content - input field */
+    #new-task-input{
+        font-size: 1rem;
+    }
+
+    #new-task-input::placeholder{
+        font-size: 1rem;
+    }
+
+    /* task button */
+    #new-task-submit{
+        font-size: 1rem;
+    }
+    
+    /* Task sub heading */
+    .task-list h2{
+        font-size: 1.2rem;
+    }
+
+    /* task content field */
+    #tasks .task .content .text{
+        font-size: 1rem;
+    }
+
+     /* task content field buttons */
+    .task .actions button{
+        font-size:0.8rem;
+    }    
 }
